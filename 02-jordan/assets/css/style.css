@@ -1,0 +1,172 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: var(--dark-20);
+}
+
+.header h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.inicio img{
+    width: 9rem;
+    margin-bottom: 15px;
+}
+
+.inicio{
+    background-image: url(/assets/img/fundoMichaelJordan.png);
+    height: 43vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+    padding: 90px 200px;
+    color: var(--dark-30);
+}
+
+.inicio h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.inicio p{
+    font-size: 18px;
+    width: 400px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.texto{
+    background-color: var(--dark-30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.texto p{
+    font-size: 18px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 500px;
+}
+
+.produtos .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-produtos img{
+    width: 50%;
+    background-color: var(--dark-20);
+    width: 384px;
+    height: 200px;
+    padding: 30px 70px;
+    transition: transform 0.4s ease;
+}
+
+.cards-produtos img:hover{
+    transform: scale(1.1);
+}
+
+.cards-produtos p{
+    margin-top: 20px;
+}
+
+.modelo-preco{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark-10);
+}
+
+.nome-produto{
+    font-size: 15px;
+    color: var(--brand-color);
+}
+
+footer p{
+    background: var(--dark-20);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    
+}
+
+
+@media(max-width: 900px){
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 30px 40px;
+        width: 100%;
+    }
+
+    .produtos .texto{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .produtos .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+    }
+
+}
+
+@media(max-width: 827px){
+    .inicio p{
+        width: 300px;
+    }
+
+    .produtos .texto{
+        text-align: center;
+        width: 300px;
+    }
+
+    .texto p{
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .produtos .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
