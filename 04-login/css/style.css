@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --brand-color: #1e9f6b;
+
+    --dark-10: #1a202c;
+
+    --grey-20: #656769;
+    --grey-30: #e8e8e8;
+    --grey-40: #f7f4fc;
+    
+    --white-50: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.imagem {
+    width: 50%;
+    background-color: #F3FFF2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    padding: 3rem;
+}
+
+.form {
+    width: 50%;
+    background-color: var(--white-50);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form input {
+    width: 400px;
+    height: 48px;
+    border: var(--grey-30) solid 1px;
+    border-radius: 3px;
+    color: var(--grey-20);
+    background-color: var(--grey-40);
+
+}
+
+h2 {
+    margin: 15px 0px 30px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+input[type="email"], input[type="password"] {
+    font-size: 20px;
+    padding: 10px;
+    color: var(--grey-20);
+    margin: 10px 0px 20px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(30, 159, 107, 0.5)
+
+}
+
+.config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+form .radio {
+    width: 1rem;
+    margin-right: -6rem;
+}
+
+a {
+    font-weight: 500;
+    color: var(--brand-color);
+    text-decoration: none;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #5b5b5b;
+}
+
+
+.btn-login {
+    color: var(--white-50);
+    background-color: #1E9E6A;
+    margin-bottom: 20px;
+}
+
+.btn-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-50);
+    background-color: var(--dark-10);
+    margin-bottom: 40px;
+}
+
+.btn-google:hover {
+    background-color: #5b5b5b;
+}
+
+
+.btn-google img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+p, a {
+    text-align: center;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--dark-10);
+    color: var(--white-50);
+}
+
+@media (max-width: 900px) {
+    .imagem {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    form input {
+        display: flex;
+        width: 300px;
+        height: 38px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        font-size: 15px;
+    }
+
+
+    .config label, a, input[type="radio"]{
+        font-size: 10px;
+    }
+}

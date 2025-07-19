@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --brand-color: #846aff;
+
+    --dark-10: #121214;
+
+    --dark-20: #7c7c84;
+    --dark-30: #eaeaea;
+    --dark-40: #eeeeff;
+    --dark-50: #f8f8ff;
+
+    --dark-60: #ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: "Roboto", arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 560px;
+    background-color: var(--dark-50);
+}
+
+h1{
+    font-size: 35px;
+    width: 580px;
+}
+
+.textos{
+    background-color: red;
+}
+
+.imagem{
+    background-color:green;
+}
+
+/* header{
+    width: 100%;
+    height: 560px;
+    background-color: var(--dark-50);
+    background-image: url(/assets/img/illustra.png);
+    background-repeat: no-repeat;
+    background-position: 50rem;
+    ba
+} */
+
+img{
+    width: 400px;
+}
