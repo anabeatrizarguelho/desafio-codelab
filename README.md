@@ -18,6 +18,6 @@ Me desafiei a desenvolver os projetos da comunidade, com o objetivo de aprimorar
 | Status | Desafio | Nome | Repositório | Deploy
 :------: | :-----: | :--: | :--: | :--: |
 ✅ | 01 | Blog | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/01-blog" target="_blank">Acessar</a> | <a href="https://blog-three-rho-86.vercel.app/">Acessar </a> 
-✅ | 02 | JordanShoes | <a href="" target="_blank">Acessar</a> | <a href="">Acessar </a>
-✅ | 03 | TechBlog | <a href="" target="_blank">Acessar</a> | <a href="" target="_blank">Acessar</a>
-🚧 | 04 | Login | <a href="" target="_blank">Acessar</a> | <a href="" target="_blank">Acessar</a> | REACTJS
+✅ | 02 | JordanShoes | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/02-jordan" target="_blank">Acessar</a> | <a href="https://jordan-shoes-five.vercel.app/">Acessar </a>
+🚧 | 03 | TechBlog | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/03-techblog" target="_blank">Acessar</a> | <a href="" target="_blank">Acessar</a>
+🚧 | 04 | Login | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/04-login" target="_blank">Acessar</a> | <a href="https://login-eight-kappa-71.vercel.app/" target="_blank">Acessar</a> |
