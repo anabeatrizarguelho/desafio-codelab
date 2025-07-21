@@ -231,3 +231,14 @@ footer a:hover {
         margin-right: -5px;
     }
 }
+
+@media (max-width: 450px) {
+    .config label {
+        font-size: 12px;
+        margin-right: -3rem ;
+    }
+
+    .config a {
+        font-size: 12px;
+    }
+}
