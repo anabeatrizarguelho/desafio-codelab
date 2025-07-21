@@ -108,6 +108,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #1c6648;
+}
+
 button {
     font-size: 16px;
     font-weight: 600;
@@ -165,6 +169,14 @@ footer {
     color: var(--white-50);
 }
 
+footer p {
+    margin-left: 3px;
+}
+
+footer a:hover {
+    color: #14e08e;
+}
+
 @media (max-width: 900px) {
     .imagem {
         display: none;
@@ -173,6 +185,7 @@ footer {
     .form {
         width: 100%;
     }
+
 }
 
 @media (max-width: 450px) {
@@ -190,5 +203,31 @@ footer {
 
     .config label, a, input[type="radio"]{
         font-size: 10px;
+    }
+
+}
+
+@media (max-width: 591px) {
+    footer {
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 15px;
+        padding: 0px 5px 0 5px;
+    }
+
+}
+
+@media (max-width: 531px) {
+    footer p, a {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 15px;
+        padding: 0px 5px 0 5px;
+    }
+
+    footer a {
+        margin-right: -5px;
     }
 }
