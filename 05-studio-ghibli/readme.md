@@ -1,11 +1,14 @@
-<div style="text-align: center">
-    <h1>Sudio Ghibli 👧🏻🛤️</h1>
+<h1 align="center">
+    <br>Studio Ghibli 👧🏻🛤️
+</h1>
 
-![Logiin](https://i.postimg.cc/FHv5dGnD/05-studio-ghibli.png)
+<div align="center">
+    <img src="./assets/img/preview-layout.png"/>
+</div>
 
 [**Clique aqui para visualizar o projeto.**](https://05-studio-ghibli.vercel.app/)
 
-</div>
+
 
 ##
 
