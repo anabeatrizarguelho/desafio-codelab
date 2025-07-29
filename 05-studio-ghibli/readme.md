@@ -1,24 +1,25 @@
-<h1 align="center">
-    <br>Studio Ghibli 👧🏻🛤️
-</h1>
-
 <div align="center">
+    <h1>Studio Ghibli 🛤️🎬</h1>
     <img src="./assets/img/preview-layout.png"/>
 </div>
 
-[**Clique aqui para visualizar o projeto.**](https://05-studio-ghibli.vercel.app/)
+<h4 align="center"> 
+    <a href="https://05-studio-ghibli.vercel.app/">Clique aqui para visualizar o projeto</a>
+<h4>
 
 
 
-##
-
-## 💻 Projeto
+## 💻 Sobre o projeto
 Este projeto é uma apresentação web dedicada à animação japonesa A Viagem de Chihiro (Spirited Away), produzida pelo renomado Studio Ghibli e dirigida por Hayao Miyazaki. A proposta é destacar os principais elementos visuais, narrativos e culturais dessa obra-prima da animação, explorando sua estética única, personagens marcantes e simbolismos presentes na história.
 
 
+
+
 ## 👩🏻‍💻 Funcionalidades
-✅ Layout responsivo;  
-✅ Animação de imagem flutuante;  
+✅ Layout responsivo; 
+
+✅ Animação de imagem flutuante; 
+ 
 ✅ Botões com efeito de clique.
 
 
