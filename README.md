@@ -24,4 +24,3 @@ Me desafiei a desenvolver os projetos da comunidade, com o objetivo de aprimorar
 🚧 | 03 | TechBlog | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/03-techblog" target="_blank">Acessar</a> | <a href="" target="_blank">Acessar</a>
 ✅ | 04 | Login | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/04-login" target="_blank">Acessar</a> | <a href="https://04-login.vercel.app/" target="_blank">Acessar</a> 
 ✅ | 05 | Studio Ghibli | <a href="https://github.com/anabeatrizarguelho/desafio-codelab/tree/main/05-studio-ghibli" target="_blank">Acessar</a> | <a href="https://05-studio-ghibli.vercel.app/" target="_blank">Acessar</a>
-|
